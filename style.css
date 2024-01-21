@@ -7,40 +7,59 @@
 
 }
 #repo-container{
-    margin-top: 450px;
+    margin-top: 500px;
+    
+    
     /* border: solid black 1px;  */
+}
+ 
+
+#repo-list{
+    
+    border: 3px solid #ccc;
+    margin:10px;
+    padding: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.language-size{
+    font-size: small;
+}
+#description{
+    font-weight: bold;
 }
 
 #language-JavaScript{
-    padding:10px;
+    padding:5px;
     /* border: solid 1px black; */
     border-radius: 10%;
     background-color: blue;
     color: #ffffff;
 }
 #language-HTML {
-    padding:10px;
+    padding:5px;
     /* border: solid 1px black; */
     border-radius: 10%;
     background-color: green;
     color: #ffffff;
 }
 #language-TypeScript{
-    padding:10px;
+    padding:5px;
     /* border: solid 1px black; */
     border-radius: 10%;
     background-color: salmon;
     color: #ffffff;
 }
 #language-Java {
-    padding:10px;
+    padding:5px;
     /* border: solid 1px black; */
     border-radius: 10%;
     background-color: skyblue;
     color: #ffffff;
 }
 #language-Ruby{
-    padding:10px;
+    padding:5px;
     /* border: solid 1px black; */
     border-radius: 10%;
     background-color: darkcyan;
@@ -48,7 +67,7 @@
 
 }
 #language-null{
-    padding:10px;
+    padding:5px;
     /* border: solid 1px black; */
     border-radius: 10%;
     background-color: gray;

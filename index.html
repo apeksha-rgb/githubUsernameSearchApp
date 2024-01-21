@@ -13,30 +13,37 @@
     <div class="container">
         <h1 style="text-align: center;">Github Username Search </h1>
     
-    <form id="myForm" autocomplete="off">
-        <div class="form-group">
+        <form id="myForm" autocomplete="off">
+            <div class="form-group">
             <input type="text" class="form-control" id="search"  placeholder="Search Username" required>
-        </div>
-        <div class="form-group text-center" style="margin-top: 10px;">
+            </div>
+            <div class="form-group text-center" style="margin-top: 10px;">
 
             <button type="submit" class="btn btn-danger">Search User</button>
-        </div>
+           
+            </div>
         
-    </form>
-    <div id="avatar-container" class="position-absolute top-50 start-50 translate-middle"></div>
-    </div>
+        </form>
+        <div id="avatar-container" class="position-absolute top-50 start-50 translate-middle"></div>
+    
+        <div class="text-center " id="repo-container"></div>
+        <div id="pagination-container" class="text-center">
+            <button class="btn btn-danger" id="prevPage" >Previous Page </button>
+            <span id="currentPage">Page 1</span>
+            <button class="btn btn-danger" id="nextPage">Next Page</button>
+            <button class="btn btn-danger"  id="loadMoreButton"> Load All Repo..</button>
+            
+        </div>
+    
+        
+        
 
-    <div class="container text-center " id="repo-container">
-
     </div>
-    <!-- <div id="pagination-controls" class="text-center" style="margin-top: 10px;">
-        <button class="prev-button" disabled>Previous</button>
-        <span class="page-number ">Page 1</span>
-        <button class="next-button">Next</button>
-    </div> -->
+    
 
     
     
 </body>
-<script src="./script.js"></script>
+
+<script src="./script.js"></script> 
 </html>
